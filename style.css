@@ -40,14 +40,14 @@ main{
     margin: 0 auto;
 }
 #home{
-    margin-bottom: 24px;
+    max-width: 1200px;
+    margin: 0 auto 24px;
 }
 #cortes{
     column-count: 2;
     column-gap: 0px;
-    margin-bottom: 24px;
     max-width: 1200px;
-    /*margin: auto;*/
+    margin: 0 auto 24px;
 }
 #cortes ol li{
     padding: 10px;
@@ -86,11 +86,16 @@ footer{
     text-align: center;
     margin: 35px 0;
     font-size: 30px;
+    transition: 0.2s;
 }
 .agende{
     color: #e4b023;
     border: 2px solid #a215e4;
     border-radius: 7px;
+}
+#agendar:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
 }
 footer a{
     color: #a215e4;
