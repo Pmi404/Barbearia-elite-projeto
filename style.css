@@ -71,9 +71,12 @@ h3{
 }
 footer{
     background-color: black;
-    color: white;
+    color: #ffffff;
     padding-inline: 10px;
     padding-block: 11px;
+}
+#social-links{
+    margin: 50px 0 10px;
 }
 footer a{
     color: #a215e4;
