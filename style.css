@@ -49,13 +49,14 @@ main{
     max-width: 1200px;
     /*margin: auto;*/
 }
-ol li{
+#cortes ol li{
     padding: 10px;
     width: 100%;
     border-radius: 8px;
     margin-bottom: 20px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px dashed #d213f83f;
     margin-left: -25px;
 }
 img{
@@ -75,8 +76,21 @@ footer{
     padding-inline: 10px;
     padding-block: 11px;
 }
-#social-links{
+#locais{
     margin: 50px 0 10px;
+}
+#social-links{
+    margin: 40px 0 10px;
+}
+#agendar{
+    text-align: center;
+    margin: 35px 0;
+    font-size: 30px;
+}
+.agende{
+    color: #e4b023;
+    border: 2px solid #a215e4;
+    border-radius: 7px;
 }
 footer a{
     color: #a215e4;
@@ -87,6 +101,7 @@ h4{
 ion-icon{
     font-size: 30px;
     padding: 5px;
+    margin-bottom: 10px;
 }
 ul{
     list-style: none;
@@ -99,4 +114,8 @@ ul{
 }
 .whatsapp{
     color: #25D366;
+}
+#documents{
+    margin: 50px 0 10px;
+
 }
