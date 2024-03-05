@@ -67,7 +67,7 @@ main{
     margin-bottom: 20px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px dashed #0a76f13f;
+    border: 1px dashed #0a76f15b;
     margin-left: -25px;
 }
 img{
@@ -164,5 +164,5 @@ ion-icon{
     font-size: 15px;
 }
 .efect{
-    color: #e4b023;
+    color: #ffbb00;
 }
