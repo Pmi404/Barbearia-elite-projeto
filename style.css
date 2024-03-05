@@ -9,11 +9,13 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #e0cd79;
     border-radius: 4px;
-    border-bottom: 3px solid gold;
+    border-bottom: 3px solid #0077ff;
     padding: 0 10px;
     align-items: center;
+    overflow: hidden;
+    background: rgb(255,0,14);
+    background: linear-gradient(90deg, rgba(255,0,14,1) 0%, rgba(0,92,255,1) 100%);
 }
 ol{
     list-style: none;
@@ -24,7 +26,7 @@ nav ul{
     gap: 15px;
 }
 .nav{
-    color: #a215e4;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -56,7 +58,7 @@ main{
     margin-bottom: 20px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 1px dashed #d213f83f;
+    border: 1px dashed #0a76f13f;
     margin-left: -25px;
 }
 img{
@@ -70,32 +72,20 @@ h3{
     width: 75%;
     margin: 5px auto;
 }
+.select-corte{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+.select-corte a{
+    color: #da8320;
+    text-decoration: underline;
+}
 footer{
     background-color: black;
     color: #ffffff;
     padding-inline: 10px;
     padding-block: 10px;
-}
-#locais{
-    margin: 50px 0 10px;
-}
-#social-links{
-    margin: 40px 0 10px;
-}
-#agendar{
-    text-align: center;
-    margin: 35px 0;
-    font-size: 30px;
-    transition: 0.2s;
-}
-.agende{
-    color: #e4b023;
-    border: 2px solid #a215e4;
-    border-radius: 7px;
-}
-#agendar:hover{
-    transition: 0.2s;
-    transform: scale(1.05);
 }
 footer a{
     color: #a215e4;
@@ -120,8 +110,36 @@ ul{
 .whatsapp{
     color: #25D366;
 }
-#documents{
-    margin: 50px 0 24px;
+#agendar{
+    text-align: center;
+    margin: 35px 0;
+    font-size: 30px;
+    transition: 0.2s;
+}
+.agende{
+    color: #e4b023;
+    border: 2px solid #a215e4;
+    border-radius: 7px;
+}
+#agendar:hover{
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+#locais{
+    margin: 50px 0 10px;
+}
+#payment{
+    margin-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+#payment span{
+    color: #e4b023;
+    font-weight: bold;
+}
+#social-links{
+    margin: 40px 0;
 }
 #final{
     margin-top: 30px;
