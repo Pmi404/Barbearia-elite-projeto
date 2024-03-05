@@ -26,7 +26,7 @@ nav ul{
     gap: 15px;
 }
 .nav{
-    color: #ffffff;
+    color: #e4b023;
 }
 a{
     text-decoration: none;
@@ -41,9 +41,18 @@ main{
     border: 1px solid goldenrod;
     margin: 0 auto;
 }
+#home sub{
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #e4b023;
+}
 #home{
     max-width: 1200px;
     margin: 0 auto 24px;
+}
+#home ul{
+    text-align: left;
+    font-size: 15px;
 }
 #cortes{
     column-count: 2;
@@ -81,6 +90,15 @@ h3{
     color: #da8320;
     text-decoration: underline;
 }
+#sem-agrado{
+    text-align: center;
+    margin: 25px auto;
+    font-size: 15px;
+    width: 75%;
+}
+#sem-agrado a{
+    text-decoration: underline;
+}
 footer{
     background-color: black;
     color: #ffffff;
@@ -98,7 +116,7 @@ ion-icon{
     padding: 5px;
     margin-bottom: 10px;
 }
-ul{
+.nav ul, #social-links ul{
     list-style: none;
     gap: 24px;
     display: flex;
@@ -134,7 +152,7 @@ ul{
     text-align: center;
     font-size: 16px;
 }
-#payment span{
+#payment span, #home span, #sem-agrado span{
     color: #e4b023;
     font-weight: bold;
 }
