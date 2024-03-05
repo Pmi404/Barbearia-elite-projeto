@@ -31,9 +31,13 @@ nav ul{
 a{
     text-decoration: none;
 }
-main{
+main, section{
     text-align: center;
     margin: 0 5px;
+}
+.tittle-barbas{
+    text-align: center;
+    margin: 10px 5px;
 }
 .line{
     width: 75%;
@@ -54,13 +58,18 @@ main{
     text-align: left;
     font-size: 15px;
 }
-#cortes{
+#cortes, #barbas{
     column-count: 2;
     column-gap: 0px;
     max-width: 1200px;
+}
+#barbas{
+    margin: 30px auto 40px;
+}
+#cortes{
     margin: 0 auto 24px;
 }
-#cortes ol li{
+#cortes ol li, #barbas ol li{
     padding: 10px;
     width: 100%;
     border-radius: 8px;
@@ -70,18 +79,24 @@ main{
     border: 1px dashed #0a76f15b;
     margin-left: -25px;
 }
-img{
+main img{
     width: 100%;
     height: auto;
     margin-bottom: 25px;
     border-radius: 5px;
+}
+#types-barbas img{
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
 }
 h3{
     border-bottom: 2px solid goldenrod;
     width: 75%;
     margin: 5px auto;
 }
-.select-corte{
+.select-corte, .select-barba{
     display: flex;
     justify-content: center;
     margin-top: 12px;
@@ -89,6 +104,10 @@ h3{
 .select-corte a{
     color: #da8320;
     text-decoration: underline;
+}
+.select-barba a, .home-link{
+    color: #a215e4;
+    text-decoration: underline
 }
 #sem-agrado{
     text-align: center;
@@ -152,9 +171,12 @@ ion-icon{
     text-align: center;
     font-size: 16px;
 }
-#payment span, #home span, #sem-agrado span{
+#payment span, #home span, #sem-agrado span, .tittle-barbas span, #barbas span{
     color: #e4b023;
     font-weight: bold;
+}
+.bonus{
+    font-size: 20px;
 }
 #social-links{
     margin: 40px 0;
