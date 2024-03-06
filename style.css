@@ -6,6 +6,9 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
+h1{
+    color: white;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -14,10 +17,14 @@ header{
     padding: 0 10px;
     align-items: center;
     overflow: hidden;
-    background: rgb(228,0,255);
-    background: linear-gradient(90deg, rgba(228,0,255,1) 0%, rgba(0,0,0,1) 70%);
-    /*background: rgb(233,233,233);
-    background: linear-gradient(90deg, rgba(233,233,233,1) 0%, rgba(0,0,0,1) 60%);*/
+    /*background: rgb(0,0,128);
+    background: linear-gradient(90deg, rgba(0,0,128,1) 0%, rgba(0,0,0,1) 70%);*/
+    background: rgb(139,0,0);
+    background: linear-gradient(90deg, rgba(139,0,0,1) 0%, rgba(0,0,0,1) 70%);
+}
+.home-tittle{
+    width: 60%;
+    margin: 5px auto 15px;
 }
 ol{
     list-style: none;
@@ -107,8 +114,8 @@ h3{
     color: #da8320;
     text-decoration: underline;
 }
-.select-barba a, .home-link{
-    color: #a215e4;
+.select-barba a{
+    color: #4169E1;
     text-decoration: underline
 }
 #sem-agrado{
@@ -127,12 +134,15 @@ footer{
     padding-block: 10px;
 }
 footer a{
-    color: #a215e4;
+    color: #B22222;
 }
 h4{
     text-align: center;
 }
-ion-icon{
+#locais ion-icon{
+    font-size: 20px;
+}
+#social-links ion-icon{
     font-size: 30px;
     padding: 5px;
     margin-bottom: 10px;
@@ -146,6 +156,9 @@ ion-icon{
     padding: 0 20px;
     margin-bottom: 25px;
 }
+.instagram{
+    color: #a215e4;
+}
 .whatsapp{
     color: #25D366;
 }
@@ -157,7 +170,7 @@ ion-icon{
 }
 .agende{
     color: #e4b023;
-    border: 2px solid #a215e4;
+    border: 2px solid #B22222;
     border-radius: 7px;
 }
 #agendar:hover{
@@ -190,3 +203,25 @@ ion-icon{
 .efect{
     color: #ffbb00;
 }
+
+/*Aba keyframes*/
+@keyframes piscar {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.3;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.home-link {
+    color: #8B0000;
+    text-decoration: underline;
+    animation-name: piscar;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+  
