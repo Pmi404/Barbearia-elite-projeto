@@ -6,7 +6,6 @@ html{
 body{
     margin: 0;
     overflow-x: hidden;
-
 }
 h1{
     color: white;
@@ -28,6 +27,7 @@ header{
     margin: 4px 0 5px;
     border-radius: 12px;
     width: 100%;
+    overflow: hidden;
 }
 .home-tittle{
     width: 60%;
