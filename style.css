@@ -27,7 +27,7 @@ header{
     margin: 4px 0 5px;
     border-radius: 12px;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .home-tittle{
     width: 60%;
