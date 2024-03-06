@@ -9,6 +9,7 @@ body{
 }
 h1{
     color: white;
+    max-width: 50%;
 }
 header{
     display: flex;
@@ -18,8 +19,6 @@ header{
     padding: 0 10px;
     align-items: center;
     overflow: hidden;
-    /*background: rgb(0,0,128);
-    background: linear-gradient(90deg, rgba(0,0,128,1) 0%, rgba(0,0,0,1) 70%);*/
     background: rgb(139,0,0);
     background: linear-gradient(90deg, rgba(139,0,0,1) 0%, rgba(0,0,0,1) 70%);
 }
@@ -43,6 +42,8 @@ nav ul{
     font-size: 15px;
     margin-right: 5px;
     font-weight: 600;
+    overflow: hidden;
+    min-width: 35%;
 }
 .nav{
     color: #e4b023;
