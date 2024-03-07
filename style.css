@@ -160,6 +160,10 @@ h4{
     font-size: 16px;
     font-weight: 300;
 }
+#locais a{
+    font-size: 16px;
+    font-weight: 600;
+}
 #social-links ion-icon{
     font-size: 30px;
     padding: 5px;
@@ -197,6 +201,13 @@ h4{
 }
 #locais{
     margin: 50px 0 10px;
+}
+.locais-nome{
+    color: #949494;
+    font-weight: bold;
+}
+#local1{
+    margin-bottom: 40px;
 }
 #payment{
     margin-top: 50px;
