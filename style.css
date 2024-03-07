@@ -37,12 +37,8 @@ ol{
     list-style: none;
 }
 nav ul{
-    display: flex;
     list-style: none;
-    gap: 12px;
     font-size: 15px;
-    padding: 0 0 0 15px;
-    margin: 0 5px 0 0;
     font-weight: 600;
 }
 .nav{
@@ -230,8 +226,28 @@ h4{
 .efect{
     color: #ffbb00;
 }
-
-/*Aba keyframes*/
+/*aba @media*/
+@media only screen and (max-width: 365px) {
+    nav ul {
+      display: block; /* Altera para display block */
+      margin-right: 15px;
+    }
+    nav ul li{
+        text-decoration: underline;
+        color: #e4b023;
+    }
+  }
+  
+  /* Estilos para telas maiores que 375px */
+  @media only screen and (min-width: 366px) {
+    nav ul {
+      display: flex; /* Altera para display flex */
+      gap: 15px; /* Adiciona 15px de espaçamento entre os itens */
+      text-decoration: none;
+    }
+  }
+  
+/*Aba @keyframes*/
 @keyframes piscar {
     0% {
       opacity: 1;
