@@ -44,7 +44,6 @@ nav ul{
     font-weight: 600;
 }
 nav ul li{
-    flex-shrink: none;
     overflow: hidden;
 }
 .nav{
