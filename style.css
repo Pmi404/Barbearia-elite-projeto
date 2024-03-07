@@ -42,8 +42,11 @@ nav ul{
     font-size: 15px;
     margin-right: 5px;
     font-weight: 600;
+    border: 1px solid red;
+}
+nav ul li{
+    flex-shrink: none;
     overflow: hidden;
-    min-width: 35%;
 }
 .nav{
     color: #e4b023;
